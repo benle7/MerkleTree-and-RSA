@@ -10,10 +10,10 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 
 
-# -----------------------------------------------------------
+# ------------------------------------------------------------
 # Class MerkleTree
 #   Hold list of nodes and another list of leaves.
-# -----------------------------------------------------------
+# ------------------------------------------------------------
 class MerkleTree:
     def __init__(self):
         self.nodes = []
